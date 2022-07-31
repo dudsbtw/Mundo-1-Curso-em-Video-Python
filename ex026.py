@@ -1,0 +1,7 @@
+f = str(input('Digite uma frase: ')).strip().lower()
+af = f.count('a')
+pa = f.find('a')
+pu = f.rfind('a')
+print(f"A letra 'A' aparece {af} vezes na sua frase")
+print(f"A primeira letra 'A' aparece na posição {pa + 1}.")
+print(f"A última letra 'A' aparece na posição {pu + 1}.")
